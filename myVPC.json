@@ -174,10 +174,21 @@
   "Outputs":{
     
 
+ 
+ 
+    "myvpc" : {
+      "Value" : 
+      { "Ref": "myVPC" }
+      
+    },
+
     
-    "myVPCID" : {
-      "Value" : { "Ref" : "myvpc" }
+    "publicsubnetid" : {
+      "Value" : 
+      { "Ref": "Publicsubnet" }
+      
     }
+ 
     
 
   }
