@@ -172,6 +172,13 @@
   },
   
   "Outputs":{
+    
+
+    
+    "myVPCID" : {
+      "Value" : { "Ref" : "myvpc" }
+    }
+    
 
   }
 
